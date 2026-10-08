@@ -26,10 +26,18 @@ jobs:
         with:
           node-version: 20
 
+      - name: Check private repository token
+        env:
+          SPEED_REPO_TOKEN: ${{ secrets.SPEED_REPO_TOKEN }}
+        run: |
+          if [ -z "$SPEED_REPO_TOKEN" ]; then
+            echo "::error title=Missing repository secret::Add SPEED_REPO_TOKEN in Settings > Secrets and variables > Actions. It needs read-only Contents access to swilled/speed."
+            exit 1
+          fi
       - name: Generate calendar
         env:
           SPEED_REPO_TOKEN: ${{ secrets.SPEED_REPO_TOKEN }}
-        run: node scripts/generate-commit-calendar.mjs --repo cuzohh/speed
+        run: node scripts/generate-commit-calendar.mjs --repo swilled/speed
 
       - name: Commit updated calendar
         run: |
