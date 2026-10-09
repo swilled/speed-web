@@ -9,7 +9,7 @@
 <rect x="32" y="59" width="12" height="12" rx="2" fill="#ebedf0" fill-opacity="0"><title>2025-10-06: 0 commits</title></rect>
 <rect x="32" y="74" width="12" height="12" rx="2" fill="#ebedf0" fill-opacity="0"><title>2025-10-07: 0 commits</title></rect>
 <rect x="32" y="89" width="12" height="12" rx="2" fill="#ebedf0" fill-opacity="0"><title>2025-10-08: 0 commits</title></rect>
-<rect x="32" y="104" width="12" height="12" rx="2" fill="#ebedf0"><title>2025-10-09: 0 commits</title></rect>
+<rect x="32" y="104" width="12" height="12" rx="2" fill="#ebedf0" fill-opacity="0"><title>2025-10-09: 0 commits</title></rect>
 <rect x="32" y="119" width="12" height="12" rx="2" fill="#ebedf0"><title>2025-10-10: 0 commits</title></rect>
 <rect x="32" y="134" width="12" height="12" rx="2" fill="#ebedf0"><title>2025-10-11: 0 commits</title></rect>
 <rect x="47" y="44" width="12" height="12" rx="2" fill="#ebedf0"><title>2025-10-12: 0 commits</title></rect>
@@ -386,7 +386,7 @@
 <rect x="812" y="74" width="12" height="12" rx="2" fill="#ebedf0"><title>2026-10-06: 0 commits</title></rect>
 <rect x="812" y="89" width="12" height="12" rx="2" fill="#ebedf0"><title>2026-10-07: 0 commits</title></rect>
 <rect x="812" y="104" width="12" height="12" rx="2" fill="#ebedf0"><title>2026-10-08: 0 commits</title></rect>
-<rect x="812" y="119" width="12" height="12" rx="2" fill="#ebedf0" fill-opacity="0"><title>2026-10-09: 0 commits</title></rect>
+<rect x="812" y="119" width="12" height="12" rx="2" fill="#ebedf0"><title>2026-10-09: 0 commits</title></rect>
 <rect x="812" y="134" width="12" height="12" rx="2" fill="#ebedf0" fill-opacity="0"><title>2026-10-10: 0 commits</title></rect>
 <text class="day" x="0" y="68">Mon</text>
 <text class="day" x="0" y="98">Wed</text>
