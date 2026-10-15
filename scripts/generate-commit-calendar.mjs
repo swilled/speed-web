@@ -40,10 +40,10 @@ function escapeXml(value) {
     .replaceAll("'", "&apos;");
 }
 
-function localCommitDates(repoPath) {
+function localCommitDates(repoPath, ref = argument("--ref", "HEAD")) {
   const output = execFileSync(
     "git",
-    ["-C", path.resolve(repoPath), "log", "--all", "--format=%aI"],
+    ["-C", path.resolve(repoPath), "log", ref, "--format=%aI"],
     { encoding: "utf8" },
   );
   return output
